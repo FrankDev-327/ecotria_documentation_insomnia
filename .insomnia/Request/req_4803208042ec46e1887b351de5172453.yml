@@ -1,12 +1,12 @@
 _id: req_4803208042ec46e1887b351de5172453
 type: Request
-parentId: wrk_1f265a6c49fe4ea6be55de968b04169e
-modified: 1670068436296
+parentId: fld_c0dbe52028934facb64252d1839b6044
+modified: 1670069329527
 created: 1670068436296
 url: ""
-name: New Request
+name: Login in to user
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
