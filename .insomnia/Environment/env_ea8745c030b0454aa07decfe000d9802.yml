@@ -1,0 +1,11 @@
+_id: env_ea8745c030b0454aa07decfe000d9802
+type: Environment
+parentId: env_ff412b05166b024c1af9015fca70db611f835a0b
+modified: 1670068581586
+created: 1670068574672
+name: EcoLocalEnv
+data: {}
+dataPropertyOrder: {}
+color: null
+isPrivate: false
+metaSortKey: 1670068574672
