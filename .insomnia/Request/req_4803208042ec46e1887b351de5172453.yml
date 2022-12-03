@@ -1,15 +1,22 @@
 _id: req_4803208042ec46e1887b351de5172453
 type: Request
 parentId: fld_c0dbe52028934facb64252d1839b6044
-modified: 1670069329527
+modified: 1670074285378
 created: 1670068436296
-url: ""
+url: "{{ _.local_ip_address }}/user-login"
 name: Login in to user
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "correo":"renteriafrancisco51@gmail.com","contrasena":"123456789"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1670068436297
 isPrivate: false
