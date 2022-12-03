@@ -1,17 +1,28 @@
 _id: req_ec9bf7422ee14d87a303805a449c82b9
 type: Request
-parentId: fld_5d5a7e9f1d05488eaec958feb833eeb5
-modified: 1670069668513
+parentId: fld_c0dbe52028934facb64252d1839b6044
+modified: 1670074054774
 created: 1670069658737
-url: ""
-name: Create a new post
+url: "{{ _.local_ip_address }}/user-create"
+name: Create a new user
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "role_user":"user", "correo":"renteriafrancisco51@gmail.com","contrasena":"123456789","nombre":"javier","apellido":"Renteria"
+
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_127fbf9aeb3741debd9816e4bc49356c
+    disabled: false
 authentication: {}
-metaSortKey: -1670069658737
+metaSortKey: -1670068436347
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
