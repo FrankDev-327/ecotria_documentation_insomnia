@@ -1,0 +1,21 @@
+_id: req_ec9bf7422ee14d87a303805a449c82b9
+type: Request
+parentId: fld_5d5a7e9f1d05488eaec958feb833eeb5
+modified: 1670069668513
+created: 1670069658737
+url: ""
+name: Create a new post
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670069658737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
