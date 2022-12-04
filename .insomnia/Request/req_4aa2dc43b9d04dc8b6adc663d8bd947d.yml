@@ -1,0 +1,33 @@
+_id: req_4aa2dc43b9d04dc8b6adc663d8bd947d
+type: Request
+parentId: fld_c0dbe52028934facb64252d1839b6044
+modified: 1670118946327
+created: 1670118393636
+url: "{{ _.local_ip_address }}/update-password/638bf554eff61f219ed5589b"
+name: Update user password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contrasena":"47258369"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_888c372e34294d2e8863cf0265a3109f
+  - id: pair_b13d473966b148ebab388bfb4eb941d8
+    name: Authorization
+    value: "{{ _.local_token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1670118393636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
