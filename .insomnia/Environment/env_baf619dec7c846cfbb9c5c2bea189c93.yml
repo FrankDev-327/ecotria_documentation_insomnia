@@ -1,11 +1,11 @@
 _id: env_baf619dec7c846cfbb9c5c2bea189c93
 type: Environment
 parentId: env_ff412b05166b024c1af9015fca70db611f835a0b
-modified: 1670068594256
+modified: 1670116846363
 created: 1670068585609
 name: EcoDevEnv
 data: {}
 dataPropertyOrder: {}
-color: null
+color: "#7d69cb"
 isPrivate: false
 metaSortKey: 1670068585609
