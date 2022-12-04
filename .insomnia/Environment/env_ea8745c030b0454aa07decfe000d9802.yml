@@ -1,11 +1,17 @@
 _id: env_ea8745c030b0454aa07decfe000d9802
 type: Environment
 parentId: env_ff412b05166b024c1af9015fca70db611f835a0b
-modified: 1670068581586
+modified: 1670112525667
 created: 1670068574672
 name: EcoLocalEnv
-data: {}
-dataPropertyOrder: {}
-color: null
+data:
+  local_ip_address: http://172.20.0.4:5007/gateway
+  local_token: "{% response 'body', 'req_4803208042ec46e1887b351de5172453',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - local_ip_address
+    - local_token
+color: "#5ddf7e"
 isPrivate: false
 metaSortKey: 1670068574672
